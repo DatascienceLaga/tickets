@@ -1,0 +1,5 @@
+# Local test
+python src/main.py "dataset" False
+
+# Build docker image
+docker build -t poc_docker .
